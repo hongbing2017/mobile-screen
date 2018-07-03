@@ -1,0 +1,16 @@
+{
+  "name": "mobile-screen",
+  "version": "1.0.0",
+  "description": "'output your command line info to mobile screen'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./CreateTestData.js | node ./index.js"
+  },
+  "keywords": [],
+  "git repository": "",
+  "author": "hongbing.z@outlook.com",
+  "license": "MPL 2.0",
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
+}
