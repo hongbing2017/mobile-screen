@@ -1,16 +1,22 @@
 {
   "name": "mobile-screen",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "'output your command line info to mobile screen'",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node ./CreateTestData.js | node ./index.js"
+    "test": "mocha | node ./src/index.js"
+  },
+  "bin": {
+    "mscreen": "./src/index.js"
   },
   "keywords": [],
-  "git repository": "",
+  "git repository": "https://github.com/hongbing2017/screen.git",
   "author": "hongbing.z@outlook.com",
   "license": "MPL 2.0",
   "dependencies": {
     "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
