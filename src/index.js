@@ -64,8 +64,9 @@ if(!screenID || !user || !password){
 console.log("send to screenID:",screenID);
 
 process.stdin.on('data',(chunk)=>{
+    console.log(chunk)
     tools.sendText(screenID,user,password,chunk)
 })
 
 
-process.exit(0)
+//process.exit(0)
