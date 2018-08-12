@@ -34,7 +34,7 @@ mscreen -h
 
 打开后，点击下方的设置按钮,进入设置页面：
 
-![ 小程序设置](./img/setting.png)
+![ 小程序设置](./img/setting.PNG)
 
 其中红色字体是你的screenID，每个人都不一样，为了下面解释方便，我们假设你得到的screen ID为:302355。
 
